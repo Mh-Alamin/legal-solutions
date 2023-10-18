@@ -1,0 +1,51 @@
+.banner{
+    background-image: url('../images/banner.png');
+    height:550px;
+    margin-bottom:50px;
+}
+
+.banner-title{
+    font-size: 66px;
+    font-weight: bold;
+    line-height:80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-box{
+    height:400px;
+}
+
+b{
+    font-size: 24px;
+}
+.serach-btn{
+    width:120px;
+    height:50px;
+    background-color:goldenrod;
+    color:white;
+    border: none;
+    border-radius:10px;
+    font-weight: bold;
+}
+
+.icons{
+    background-color:goldenrod;
+    border-radius:50%;
+    padding:10px;
+    color:white;
+}
+
+@media (max-width: 576px){
+        .banner-title{
+            font-size:32px;
+            line-height:40px;
+        }
+
+        .serach{
+            margin-left:30px;
+        }
+     
+        .p-box{
+            display:row;
+        }
+}
